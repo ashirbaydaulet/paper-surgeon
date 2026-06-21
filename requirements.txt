@@ -1,6 +1,6 @@
 torch
 transformers
-datasets
+datasets<4.0
 scikit-learn
 matplotlib
 pandas
