@@ -86,7 +86,6 @@ def tokenize_split(df, tokenizer: AutoTokenizer, max_length: int) -> Dataset:
         batched=True,
     )
     ds = ds.remove_columns(["text", "label"])
-    ds.set_format("torch")
     return ds
 
 
